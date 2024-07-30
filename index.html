@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container-registration">
+      <div class="title">Registração</div>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nome Completo</span>
+            <input type="text" placeholder="Escreva o seu nome" required="">
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Escreva o seu email" required="">
+          </div>
+          <div class="input-box">
+            <span class="details">Contacto</span>
+            <input type="text" placeholder="Deixe o seu contacto" required="">
+          </div>
+        </div>
+        
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Género</span>
+          <div class="category">
+            <label for="dot-1" required>
+              <span class="dot one"></span>
+              <span class="gender">Masculino</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Feminino</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Outro</span>
+            </label>
+          </div>
+        </div>
+        <div class="button" id="button-form">
+          <input type="submit" value="Enviar" id="animatedButton">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
